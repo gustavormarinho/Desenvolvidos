@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a3ainfo.tcc.SalaActivity"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECIONE UM DIA:" />
+
+    <Spinner
+        android:id="@+id/spinnerDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECIONE UM HORÁRIO:" />
+
+    <Spinner
+        android:id="@+id/spinnerHorario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/btnDetalhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contextClickable="false"
+        android:visibility="visible"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Exibir Detalhes" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center">
+
+        <ImageButton
+            android:id="@+id/btnReservar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/button_reservar" />
+        <TextView
+            android:text="RESERVAR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

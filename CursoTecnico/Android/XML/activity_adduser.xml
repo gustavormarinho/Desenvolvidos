@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a3ainfo.tcc.addUser_Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"/>
+
+    <EditText
+        android:id="@+id/txtNomeUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Mail:"/>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefone:"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/txtTelUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"/>
+
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuário:"/>
+
+    <EditText
+        android:id="@+id/txtUserUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/Text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha:"/>
+
+    <EditText
+        android:id="@+id/txtSenhaUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/Text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NÍVEL DE ACESSO:"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdAdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Administrador" />
+
+        <RadioButton
+            android:id="@+id/rdProf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Professor" />
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|center">
+
+        <ImageButton
+            android:id="@+id/btnCadUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/button_caduser" />
+
+        <TextView
+            android:id="@+id/txtDescUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADICIONAR"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
