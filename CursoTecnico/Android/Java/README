@@ -1,4 +1,1 @@
--Cada arquivo com "Activity" no nome, se refere à uma "tela" do aplicativo.
--Os arquivos DTO possuem os métodos "Get()" e "Set()", seguindo a lógica do desenvolvimento em camadas.
--Os arquivos BLL possuem métodos de interação com o SQLite.
--A codificação não está "clean", pois na época utilizei de templates para poder entregar o trabalho em tempo hábil.
+
