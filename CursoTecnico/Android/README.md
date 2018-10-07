@@ -2,4 +2,4 @@
 
 <b>Java:</b> Classes de controle e DAO 
   
-<b>XML</b> Layout das Telas
+<b>XML:</b> Layout das Telas
