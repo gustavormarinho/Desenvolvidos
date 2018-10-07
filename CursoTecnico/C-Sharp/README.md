@@ -1,6 +1,4 @@
-# Trabalho de Conclusão de Módulo 
-# <br/>
-# Sistema Desktop
+# Trabalho de Conclusão de Módulo <br/>  Sistema Desktop
 Sistema desenvolvido em C# (Visual Studio) + SQL-Server para o TCM (Trabalho de Conclusão de Módulo), do segundo semestre do Curso Técnico
 
 A pasta <b>SQL</b> contém o banco de dados utilizado
