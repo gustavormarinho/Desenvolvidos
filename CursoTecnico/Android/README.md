@@ -1,4 +1,4 @@
-# TCC-Android
+# Trabalho de Conclusão de Curso <br/> Android
 Aqui estão presentes os códigos relevantes do TCC, digitados por mim.
 
 
