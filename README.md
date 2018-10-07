@@ -1,3 +1,3 @@
 # Projetos desenvolvidos
 
--CursoTecnico: Projetos desenvolvidos durante o curso técnico
+<b>CursoTecnico:</b> Projetos desenvolvidos durante o curso técnico
